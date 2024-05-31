@@ -761,3 +761,37 @@ body {
         padding: 35px;
     }
 }
+
+.archive {
+    &__episode {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 30px 0;
+        line-height: 1.2;
+    }
+
+    &__episode:hover {
+        background-color: rgb(83, 92, 145, 0.3); ;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__header {
+        font-size: 17px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    &__date {
+        font-weight: 700;
+    }
+
+    &__markdown {
+        line-height: 0.9;
+        margin: 25px 0;
+    }
+}

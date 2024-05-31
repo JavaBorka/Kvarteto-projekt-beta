@@ -698,4 +698,31 @@ body {
     font-size: 12px;
     padding: 35px;
   }
+}
+
+.archive__episode {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 0;
+  line-height: 1.2;
+}
+.archive__episode:hover {
+  background-color: rgba(83, 92, 145, 0.3);
+}
+.archive__img {
+  width: 100%;
+}
+.archive__header {
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.archive__date {
+  font-weight: 700;
+}
+.archive__markdown {
+  line-height: 0.9;
+  margin: 25px 0;
 }/*# sourceMappingURL=style.css.map */
